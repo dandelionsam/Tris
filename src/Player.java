@@ -3,14 +3,13 @@ public class Player {
     private Character playerChar;
 
     public Player(String playerName, Character playerChar){
-        this.playerName;
-        this.playerChar;
+        this.playerName = playerName;
+        this.playerChar = playerChar;
     }
 
     public String getPlayerName() {
         return playerName;
     }
-
     public void setPlayerName(String playerName) {
         this.playerName = playerName;
     }
@@ -18,7 +17,6 @@ public class Player {
     public Character getPlayerChar() {
         return playerChar;
     }
-
     public void setPlayerChar(Character playerChar) {
         this.playerChar = playerChar;
     }
